@@ -1,4 +1,7 @@
 vCard - Personal Portfolio
+DK NOTES:
+When Changing/adding Portfolio Cards, the catagory needs to be all lowercase. Also the picture size of the thumbnail is 600x450.
+
 
 # sidebar
 
