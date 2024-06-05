@@ -152,11 +152,11 @@
             </li>
 
             <!-- Resume -->
-            <li class="social-item">
+            <!-- <li class="social-item">
               <a href="/assets/resume.pdf" class="social-link">
                 <ion-icon name="attach-outline"></ion-icon>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </aside>
@@ -176,8 +176,15 @@
               <button class="navbar-link active" data-nav-link>About</button>
             </li>
 
-            <li class="navbar-item">
+            <!-- OLD RESUME BUTTON -->
+            <!-- <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Resume</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <a href="/assets/resume.pdf" class="navbar-link" data-nav-link
+                >Resume</a
+              >
             </li>
 
             <li class="navbar-item">
@@ -206,7 +213,7 @@
 
           <section class="about-text">
             <p>
-              I'm a current student at the
+              I'm a current undergraduate student at the
               <a
                 href="https://www.uml.edu"
                 target="_blank"
@@ -216,7 +223,11 @@
               studying in Computer Science, with a minor in Robotics and Math.
             </p>
 
-            <p>My main focus is aimed towards Robotics and Automation.</p>
+            <p>
+              My main focus is aimed towards Robotics & Automation. I enjoy
+              spending time gaining experience of different frameworks and
+              platforms, and currently involved in multiple related projects.
+            </p>
 
             <p>
               In my spare time, I enjoy audio engineering, reading, and running.
@@ -234,9 +245,9 @@
               <li class="service-item">
                 <div class="service-icon-box">
                   <img
-                    src="./assets/images/icon-design.svg
+                    src="./assets/images/icon_robot_arm.svg
                 "
-                    alt="design icon"
+                    alt="robot-arm"
                     width="40"
                   />
                 </div>
@@ -254,7 +265,26 @@
               <li class="service-item">
                 <div class="service-icon-box">
                   <img
-                    src="./assets/images/icon-dev.svg"
+                    src="./assets/images/icon-browser.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">GUI/Web-Development</h4>
+
+                  <p class="service-item-text">
+                    Fundamental GUI Development prioritizing modern, and
+                    easy-of-use (JavaScript, React.js, Next.js, etc).
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-gear.svg"
                     alt="Web development icon"
                     width="40"
                   />
@@ -264,31 +294,13 @@
                   <h4 class="h4 service-item-title">Automation/Controls</h4>
 
                   <p class="service-item-text">
-                    High-quality development of sites at the professional level.
+                    Beginner Experience in Ladder Logic, HMIs and SCADA
+                    software.
                   </p>
                 </div>
               </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-app.svg"
-                    alt="mobile app icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                  <p class="service-item-text">
-                    Professional development of applications for iOS and
-                    Android.
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
+              <!-- <li class="service-item">
                 <div class="service-icon-box">
                   <img
                     src="./assets/images/icon-photo.svg"
@@ -305,7 +317,7 @@
                     level.
                   </p>
                 </div>
-              </li>
+              </li> -->
             </ul>
           </section>
 
@@ -660,7 +672,7 @@
             </ol>
           </section>
 
-          <section class="skill">
+          <!-- <section class="skill">
             <h3 class="h3 skills-title">My skills</h3>
 
             <ul class="skills-list content-card">
@@ -689,7 +701,7 @@
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">Branding</h5>
-                  <data value="90">90%</data>
+                  <data value="20">20%</data>
                 </div>
 
                 <div class="skill-progress-bg">
@@ -708,7 +720,7 @@
                 </div>
               </li>
             </ul>
-          </section>
+          </section> -->
         </article>
 
         <!--
@@ -727,7 +739,15 @@
               </li>
 
               <li class="filter-item">
-                <button data-filter-btn>Web design</button>
+                <button data-filter-btn>Robotics</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Automation</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Design</button>
               </li>
 
               <li class="filter-item">
@@ -756,7 +776,11 @@
                 </li>
 
                 <li class="select-item">
-                  <button data-select-item>Web design</button>
+                  <button data-select-item>Robotics</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Automation</button>
                 </li>
 
                 <li class="select-item">
@@ -773,7 +797,7 @@
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="robotics"
               >
                 <a href="#">
                   <figure class="project-img">
@@ -790,7 +814,7 @@
 
                   <h3 class="project-title">Finance</h3>
 
-                  <p class="project-category">Web development</p>
+                  <p class="project-category">Robotics</p>
                 </a>
               </li>
 
