@@ -1501,6 +1501,10 @@ textarea.form-input::-webkit-resizer {
     margin-bottom: 40px;
   }
 
+  .dk-link {
+    color: var(--vegas-gold);
+  }
+
   /* service */
 
   .service-item {
